@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <title>Marko Bachvarovski | Developer</title>
+    <meta name="keywords" content="[markobachvarovski,
+    javascript, react, html, css, server, database, API, facial recognition,
+    node.js, express.js, postgresql, npm], [Marko Bachvarovski], skill" />
+    <meta name="description" content="[Marko Bachvarovski] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hello!
+          My name is <span class="text-color-main">Marko Bachvarovski</span>
+          <br />
+          I'm the developer! So nice to meet you!
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">
+            Let me tell you about myself
+          </a>
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/Profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I'm a student at the University of Toronto studying Computer Science,
+                Physics and Spanish. But beyond that I'm a passion-driven person
+                with a hunger for knowledge. After all, that's how I got to where
+                I am today. But I believe that one learns as long as they live,
+                and I'm excited for the challenges ahead.
+              </p>
+              <p class="about-wrapper__info-text">
+                Outside of work, I love to exercise! If I'm not busy studying or
+                learning something new, you'll definitely find me in the gym. I'm
+                a very social person as well, so I always try to catch up with
+                my friends or meet new people. So if you ever see me outside,
+                feel free to say hi!
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/Resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+
+    <!-- **** Skills Section **** -->
+    <section id="skills">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Skills</h2>
+          <span class="content"></span>
+        </div>
+      </div>
+    </section>
+    <!-- /END Skills Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Smart Brain</h3>
+                <div>
+                  <p class="mb-4">
+                    This is a project made with React and connected to a facial
+                    recognition API. The user must register and upon registration,
+                    they are able to enter a URL of an image, which gets displayed
+                    on the screen. If the image contains faces, the app
+                    will recognize them and put a box around them. The front end
+                    is connected to a server and a database, so that a user can access
+                    it at any time
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://marko-smart-brain.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/markobachvarovski/final-project"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer"
+                   href="https://marko-smart-brain.herokuapp.com/"
+                   target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/smartbrain.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Robofriends</h3>
+                <div>
+                  <p class="mb-4">
+                    This project was my first attempt at using React and connecting
+                    a project to an API. The users are fetched from a JSON
+                    placeholder website online
+                    and passed through an API that assigns each user to a random
+                    image of a robot based on their name. The user is able to
+                    search and scroll through the robots to find a specific one.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://markobachvarovski.github.io/robofriends/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/markobachvarovski/robofriends"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer"
+                   href="https://markobachvarovski.github.io/robofriends/"
+                   target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/robofriends.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Password checker</h3>
+                <div>
+                  <p class="mb-4">
+                    This project was made in Python. The user enters a password
+                    which gets hashed using the SHA1 algorithm and the hash is split
+                    into the first 5 characters and the remainder of the hash. An
+                    API from "Have I been pwned?" is used to compare the
+                    passwords to their databases. Since the API implements k-anonimity,
+                    only the first 5 characters of the hash are compared using
+                    the API and the rest of the hash is compared locally to
+                    maintain security.
+                  </p>
+                </div>
+<!--                <a-->
+<!--                  rel="noreferrer"-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn cta-btn&#45;&#45;hero"-->
+<!--                  href="#!"-->
+<!--                >-->
+<!--                  See Live-->
+<!--                </a>-->
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main pass-btn"
+                  href="https://github.com/markobachvarovski/passwordchecker"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/password.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">
+            Phone: (437)-986-4015
+            <br/>
+            Email:
+            <a href="mailto:example@email.com" style="color: white">
+              marko.bachvarovski@gmail.com
+            </a>
+          </p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:example@email.com"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <div class="social-links">
+          <a rel="noreferrer" href="mailto:marko.bachvarovski@gmail.com" target="_blank">
+            <i class="fa fa-envelope-o fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/markobachvarovski/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/markobachvarovski" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+
+
+        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
+
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+  </body>
+</html>
