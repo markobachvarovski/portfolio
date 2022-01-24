@@ -3,7 +3,7 @@ export default function createCloud() {
   const myTags = [
     'JavaScript', 'CSS', 'HTML',
     'React', 'Python', 'NPM Scripts', 'Java', 'Git',
-    'NPM', 'HTTP/JSON/AJAX', 'Node.js',
+    'NPM', 'HTTP','JSON', 'AJAX', 'Node.js',
     'RESTful APIs', 'Express.js',
     'Postman', 'APIs', 'Bootstrap', 'Selenium', 'PostgreSQL',
     'Pip'
