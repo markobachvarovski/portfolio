@@ -1,4 +1,4 @@
-export default function createCloud() {
+export default function createCloud(radius) {
 
   const myTags = [
     'JavaScript', 'CSS', 'HTML',
@@ -12,7 +12,7 @@ export default function createCloud() {
   let tagCloud = TagCloud('.content', myTags, {
 
     // radius in px
-    radius: 350,
+    radius: radius,
 
     // animation speed
     // slow, normal, fast
