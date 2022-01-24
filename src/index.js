@@ -9,6 +9,6 @@ initTiltEffect();
 if(screen.width > 850){
     createCloud(350);
 } else{
-    createCloud(100);
+    createCloud(150);
 }
 
