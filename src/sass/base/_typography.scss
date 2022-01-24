@@ -56,7 +56,11 @@ a:hover {
   font-family: "Montserrat", sans-serif;
   font-size: $default-font-size;
   font-weight: 650;
-  margin-left: 20%;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
 }
 
 .tagcloud--item {
