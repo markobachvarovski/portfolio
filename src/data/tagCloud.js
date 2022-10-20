@@ -6,7 +6,7 @@ export default function createCloud(radius) {
     'NPM', 'HTTP','JSON', 'AJAX', 'Node.js',
     'RESTful APIs', 'Express.js',
     'Postman', 'APIs', 'Bootstrap', 'Selenium', 'PostgreSQL',
-    'Pip'
+    'Pip', 'GraphQL'
   ];
 
   let tagCloud = TagCloud('.content', myTags, {
