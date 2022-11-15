@@ -6,7 +6,7 @@ import { targetElements, defaultProps } from "./data/scrollRevealConfig";
 initScrollReveal(targetElements, defaultProps);
 initTiltEffect();
 
-if(screen.width > 850){
+if(screen.width > 750) {
     createCloud(350);
 } else{
     createCloud(150);
