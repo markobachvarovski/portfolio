@@ -1,23 +1,40 @@
 export default function createCloud(radius) {
-
   const myTags = [
-    'JavaScript', 'CSS', 'HTML',
-    'React', 'Python', 'NPM Scripts', 'Java', 'Git',
-    'NPM', 'HTTP','JSON', 'AJAX', 'Node.js',
-    'RESTful APIs', 'Express.js',
-    'Postman', 'APIs', 'Bootstrap', 'Selenium', 'PostgreSQL',
-    'Pip', 'GraphQL'
+    "JavaScript",
+    "CSS",
+    "PostgreSQL",
+    "C++",
+    "React",
+    "Python",
+    "NPM Scripts",
+    "Java",
+    "Git",
+    "NPM",
+    "RESTful APIs",
+    "HTTP",
+    "JSON",
+    "AJAX",
+    "Node.js",
+    "Express.js",
+    "C",
+    "Postman",
+    "APIs",
+    "Bootstrap",
+    "Selenium",
+    "HTML",
+    "MongoDB",
+    "GraphQL",
+    "JSON RPCs",
   ];
 
-  let tagCloud = TagCloud('.content', myTags, {
-
+  let tagCloud = TagCloud(".tagcloud", myTags, {
     // radius in px
     radius: radius,
 
     // animation speed
     // slow, normal, fast
-    maxSpeed: 'fast',
-    initSpeed: 'fast',
+    maxSpeed: "fast",
+    initSpeed: "normal",
 
     // 0 = top
     // 90 = left
@@ -26,6 +43,5 @@ export default function createCloud(radius) {
 
     // interact with cursor move on mouse out
     keep: true,
-
   });
 }
