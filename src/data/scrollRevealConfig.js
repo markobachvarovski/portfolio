@@ -58,6 +58,13 @@ export const targetElements = [
     },
   },
   {
+    element: ".see-more-btn",
+    animation: {
+      delay: 300,
+      origin: "left",
+    }
+  },
+  {
     element: ".contact-wrapper",
     animation: {
       delay: 800,
