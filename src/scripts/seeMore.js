@@ -4,7 +4,6 @@ import { defaultProps } from "../data/scrollRevealConfig";
 
 const seeMoreBtn = document.querySelector(".see-more-btn");
 const hiddenProjects = document.getElementsByClassName("projects-hidden");
-const passwordCheckerImg = document.getElementById("password-img");
 
 export default function seeMoreButtonListener() {
   seeMoreBtn.addEventListener("click", (e) => {
@@ -55,14 +54,6 @@ const passwordCheckerRow =
   "                    maintain security.\n" +
   "                  </p>\n" +
   "                </div>\n" +
-  "<!--                <a-->\n" +
-  '<!--                  rel="noreferrer"-->\n' +
-  '<!--                  target="_blank"-->\n' +
-  '<!--                  class="cta-btn cta-btn--hero"-->\n' +
-  '<!--                  href="#!"-->\n' +
-  "<!--                >-->\n" +
-  "<!--                  See Live-->\n" +
-  "<!--                </a>-->\n" +
   "                <a\n" +
   '                  rel="noreferrer"\n' +
   '                  target="_blank"\n' +
@@ -84,7 +75,7 @@ const passwordCheckerRow =
   '                    class="thumbnail rounded js-tilt"\n' +
   "                  >\n" +
   '                    <img alt="Project Image" class="img-fluid" src=' +
-  passwordCheckerImg.src +
+    document.getElementById("password-img").src +
   " /> " +
   "                  </div>\n" +
   "                </a>\n" +
