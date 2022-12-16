@@ -60,9 +60,9 @@ export const targetElements = [
   {
     element: ".see-more-btn",
     animation: {
-      delay: 300,
+      delay: 150,
       origin: "left",
-    }
+    },
   },
   {
     element: ".contact-wrapper",
