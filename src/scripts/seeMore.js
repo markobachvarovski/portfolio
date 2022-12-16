@@ -81,7 +81,7 @@ const robofriendsRow =
   '                    data-tilt-max-glare="0.5"\n' +
   '                    class="thumbnail rounded js-tilt"\n' +
   "                  >\n" +
-  '                    <img alt="Project Image" class="img-fluid" src="https://i.imgur.com/4V2KQw8.png" /> ' +
+  '                    <img alt="Robofriends Image" class="img-fluid" src="https://i.imgur.com/4V2KQw8.png"/> ' +
   "                  </div>\n" +
   "                </a>\n" +
   "              </div>\n" +
