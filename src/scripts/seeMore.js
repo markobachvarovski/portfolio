@@ -11,10 +11,6 @@ export default function seeMoreButtonListener() {
       seeMoreBtn.innerHTML = "See less";
       hiddenProjects[0].innerHTML = robofriendsRow;
 
-      // document
-      //   .getElementById("img-robofriends")
-      //   .appendChild(document.createElement("img")).src = "robofriends.0963550d.png";
-
       initTiltAnimation();
       initScrollReveal(
         [
@@ -129,7 +125,7 @@ const robofriendsRow =
   '                    data-tilt-max-glare="0.5"\n' +
   '                    class="thumbnail rounded js-tilt"\n' +
   "                  >\n" +
-  '                    <img alt="Project Image" class="img-fluid" src="robofriends.0963550d.png" /> ' +
+  '                    <img alt="Project Image" class="img-fluid" src="https://i.imgur.com/4V2KQw8.png" /> ' +
   "                  </div>\n" +
   "                </a>\n" +
   "              </div>\n" +
