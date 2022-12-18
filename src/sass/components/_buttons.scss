@@ -41,8 +41,8 @@
 
   @include respond(phone) {
     background-image: none;
-    border: 2px solid $secondary-color;
-    -webkit-text-fill-color: $secondary-color;
+    border: 2px solid $middle-color;
+    -webkit-text-fill-color: $middle-color;
   }
 
   &::after {
@@ -54,6 +54,7 @@
 
     @include respond(phone) {
       background-image: none;
+      -webkit-text-fill-color: $middle-color;
     }
   }
 
