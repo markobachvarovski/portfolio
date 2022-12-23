@@ -10,6 +10,7 @@ export default function seeMoreButtonListener() {
     if (seeMoreBtn.innerHTML === "See more") {
       seeMoreBtn.innerHTML = "See less";
       hiddenProjects[0].innerHTML = robofriendsRow;
+      hiddenProjects[0].style.marginBottom = "8rem";
 
       initTiltAnimation();
       initScrollReveal(
@@ -34,6 +35,7 @@ export default function seeMoreButtonListener() {
     } else {
       seeMoreBtn.innerHTML = "See more";
       hiddenProjects[0].innerHTML = "";
+      hiddenProjects[0].style.marginBottom = "0";
     }
   });
 }
