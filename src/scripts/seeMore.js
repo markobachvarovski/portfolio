@@ -6,6 +6,10 @@ const seeMoreBtn = document.querySelector(".see-more-btn");
 const hiddenProjects = document.getElementsByClassName("projects-hidden");
 
 export default function seeMoreButtonListener() {
+  document.addEventListener("DOMContentLoaded", (e) => {
+    hiddenProjects[0].style.marginBottom = "0";
+  });
+
   seeMoreBtn.addEventListener("click", (e) => {
     if (seeMoreBtn.innerHTML === "See more") {
       seeMoreBtn.innerHTML = "See less";
