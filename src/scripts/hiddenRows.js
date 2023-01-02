@@ -33,7 +33,8 @@ const computationalPhysicsRow =
   '                    data-tilt-max-glare="0.5"\n' +
   '                    class="thumbnail rounded js-tilt"\n' +
   "                  >\n" +
-  '                    <img alt="Robofriends Image" class="img-fluid" src="https://i.imgur.com/4V2KQw8.png"/> ' +
+  '                    <img alt="Computational Physics Image" class="img-fluid" ' +
+  '                         src="https://www.physicsread.com/wp-content/uploads/2021/06/computational-physics.png"/> ' +
   "                  </div>\n" +
   "                </a>\n" +
   "              </div>\n" +
