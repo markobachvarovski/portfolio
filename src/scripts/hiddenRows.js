@@ -10,6 +10,7 @@ const computationalPhysicsRow =
   "                    Markov Chains, ODE and PDE solvers, Fourier decomposition algorithm, \n" +
   "                    Metropolis algorithm, LU decomposition and backsubstitution algorithms for\n" +
   "                    matrix decomposition and more!\n" +
+  "                    Note: Repository has been made private to maintain academic integrity\n" +
   "                  </p>\n" +
   "                </div>\n" +
   "                <a\n" +
