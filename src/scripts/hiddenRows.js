@@ -90,4 +90,51 @@ const robofriendsRow =
   "              </div>\n" +
   "            </div>\n";
 
-export default [computationalPhysicsRow, robofriendsRow];
+const passwordCheckerRow =
+    '            <div class="col-lg-4 col-sm-12">\n' +
+    '              <div class="project-wrapper__text project-wrapper__text__hidden">\n' +
+    '                <h3 class="project-wrapper__text-title">Password Checker</h3>\n' +
+    "                <div>\n" +
+    '                  <p class="mb-4">\n' +
+    "                    This project was made in Python. The user enters a password\n" +
+    "                    which gets hashed using the SHA1 algorithm and the hash is\n" +
+    "                    split into the first 5 characters and the remainder of the\n" +
+    "                    hash. An API from \"Have I been pwned?\" is used to compare\n" +
+    "                    the passwords to their databases. Since the API implements\n" +
+    "                    k-anonimity, only the first 5 characters of the hash are\n" +
+    "                    compared using the API and the rest of the hash is compared\n" +
+    "                    locally to maintain security.\n" +
+    "                  </p>\n" +
+    "                </div>\n" +
+    "                <a\n" +
+    '                  rel="noreferrer"\n' +
+    '                  target="_blank"\n' +
+    '                  class="cta-btn cta-btn--hero"\n' +
+    '                  href="https://github.com/markobachvarovski/passwordchecker"\n' +
+    "                >\n" +
+    "                  Source Code\n" +
+    "                </a>\n" +
+    "              </div>\n" +
+    "            </div>\n" +
+    '            <div class="col-lg-8 col-sm-12">\n' +
+    '              <div class="project-wrapper__image project-wrapper__image__hidden">\n' +
+    '                <a rel="noreferrer" href="#!" target="_blank">\n' +
+    "                  <div\n" +
+    '                    id="img-password-checker"' +
+    "                    data-tilt\n" +
+    '                    data-tilt-max="4"\n' +
+    '                    data-tilt-glare="true"\n' +
+    '                    data-tilt-max-glare="0.5"\n' +
+    '                    class="thumbnail rounded js-tilt"\n' +
+    "                  >\n" +
+    '                    <img\n' +
+    '                      alt="Password Checker"\n' +
+    '                      class="img-fluid"\n' +
+    '                      src="https://i.imgur.com/v8WMPQz.png"\n' +
+    '                    /> ' +
+    "                  </div>\n" +
+    "                </a>\n" +
+    "              </div>\n" +
+    "            </div>\n";
+
+export default [passwordCheckerRow, computationalPhysicsRow, robofriendsRow];
